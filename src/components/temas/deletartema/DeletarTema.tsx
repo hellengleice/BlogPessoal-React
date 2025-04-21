@@ -34,7 +34,7 @@ function DeletarTema() {
 
     useEffect(() => {
         if (token === '') {
-            ToastAlerta('Você precisa estar logado', 'erro')
+            ToastAlerta('Você precisa estar logado!', 'erro')
             navigate('/')
         }
     }, [token])
