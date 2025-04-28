@@ -1,54 +1,68 @@
-# React + TypeScript + Vite
+# **Blog Pessoal - React** 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Blog Pessoal** desenvolvido com **React** e **Tailwind CSS**. O objetivo é criar uma plataforma simples onde usuários podem **registrar-se**, **fazer login**, **criar, editar, visualizar e excluir** postagens e temas. O projeto se conecta com uma **API back-end** para persistência de dados. Encontre o repositório da API [aqui](#).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## **Funcionalidades** 
 
-## Expanding the ESLint configuration
+- **Cadastro e Login de Usuários**: Permite que usuários se registrem e façam login utilizando **e-mail e senha**.
+- **Gerenciamento de Postagens**: Criação, edição, visualização e exclusão de postagens.
+- **Temas para Organizar Postagens**: Criação e gestão de **temas** que ajudam a categorizar as postagens.
+- **Interface Responsiva**: A aplicação se adapta bem a dispositivos móveis e desktops.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## **Tecnologias Utilizadas** 
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **React**: Biblioteca JavaScript para construção de interfaces dinâmicas.
+- **Tailwind CSS**: Framework utilitário CSS para estilização rápida e eficaz.
+- **Axios**: Utilizado para **requisições HTTP** à API.
+- **React Router**: Gerenciamento de rotas da aplicação.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## **Como Rodar o Projeto Localmente** 
+
+### **Pré-requisitos**
+
+tenha instalado:
+
+- **Node.js** (versão 14 ou superior)
+- **npm** ou **yarn**
+
+---
+
+### **Passos para Configuração**
+
+1. **Clone o repositório**:
+
+   ```bash
+   git clone https://github.com/hellengleice/BlogPessoal-React.git
+   cd BlogPessoal-React
+---
+2. **Instale as dependências**:
+
+   ```bash
+   npm install
+   # ou
+   yarn install
+---
+3. **Configure as variáveis de ambiente**:
+   - Crie um arquivo `.env` na raiz do projeto e adicione a URL da API
+
+---
+
+4. **Inicie o servidor de desenvolvimento**:
+
+   ```bash
+   npm start
+   # ou
+   yarn start
+   
+## 📬 **Contato**
+
+Tem dúvidas ou sugestões? Fique à vontade para entrar em contato:
+
+- **Autor**: Hellene Gleice
+- **E-mail**: hellengleice.97@gmail.com
