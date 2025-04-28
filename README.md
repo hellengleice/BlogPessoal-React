@@ -1,6 +1,6 @@
 # **Blog Pessoal - React** 
 
-**Blog Pessoal** desenvolvido com **React** e **Tailwind CSS**. O objetivo é criar uma plataforma simples onde usuários podem **registrar-se**, **fazer login**, **criar, editar, visualizar e excluir** postagens e temas. O projeto se conecta com uma **API back-end** para persistência de dados. Encontre o repositório da API [aqui](#).
+**Blog Pessoal** desenvolvido com **React** e **Tailwind CSS**. O objetivo é criar uma plataforma simples onde usuários podem **registrar-se**, **fazer login**, **criar, editar, visualizar e excluir** postagens e temas. O projeto se conecta com uma **API back-end** para persistência de dados. 
 
 ---
 
